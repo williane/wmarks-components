@@ -1,5 +1,5 @@
-import styled, { css } from 'styled-components'
-import { Heading as toolsHeading, TextShadow } from '../../Styles/Tools'
+import styled from 'styled-components'
+import { Title as toolsHeading, TextShadow } from '../../Styles/Tools'
 import { palette } from '../../index'
 
 const Title = styled.h1`
