@@ -10,7 +10,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  max-height: 34rem;\n  max-width: 38.5rem;\n\n  &:hover {\n    transform: scale(1.1);\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  height: 30rem;\n  width: 30rem;\n\n  &:hover {\n    transform: scale(1.1);\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;

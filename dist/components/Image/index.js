@@ -10,7 +10,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n"]);
+  var data = _taggedTemplateLiteral(["\n  height: 100%;\n  width: 100%;\n  object-fit: contain;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
