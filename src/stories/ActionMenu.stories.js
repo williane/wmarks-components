@@ -1,6 +1,8 @@
 import React from 'react'
 import { ActionMenu, palette } from '../lib'
 import pageBuilder from '../lib/assets/images/pageBuilder.png'
+import api from '../lib/assets/images/api.png'
+import extension from '../lib/assets/images/extension.jpg'
 
 export default {
   title: 'Components/ActionMenu',
@@ -47,13 +49,37 @@ export default {
 
 const Template = (args) => <ActionMenu {...args} />
 
-export const Default = Template.bind({})
-Default.args = {
+export const PageBuilder = Template.bind({})
+PageBuilder.args = {
   backgroundColor: 'colorBlackThird',
   shadowColor: 'colorSecond',
   src: pageBuilder,
   lBackgroundColor: 'colorFirst',
-  color: 'colorBlackFirts',
+  color: 'colorBlackFirst',
+  lShadowColor: 'colorSecond',
+  borderColor: 'colorSecond',
+  children: 'Create Page Builder'
+}
+
+export const Api = Template.bind({})
+Api.args = {
+  backgroundColor: 'colorBlackThird',
+  shadowColor: 'colorSecond',
+  src: api,
+  lBackgroundColor: 'colorFirst',
+  color: 'colorBlackFirst',
+  lShadowColor: 'colorSecond',
+  borderColor: 'colorSecond',
+  children: 'Create Page Builder'
+}
+
+export const Extension = Template.bind({})
+Extension.args = {
+  backgroundColor: 'colorBlackThird',
+  shadowColor: 'colorSecond',
+  src: extension,
+  lBackgroundColor: 'colorFirst',
+  color: 'colorBlackFirst',
   lShadowColor: 'colorSecond',
   borderColor: 'colorSecond',
   children: 'Create Page Builder'

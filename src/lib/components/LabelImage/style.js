@@ -8,6 +8,7 @@ export const Wrapper = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 6rem;
   background: ${({ backgroundColor }) =>
     backgroundColor ? palette[backgroundColor] : 'var(--color-black-third)'};
   box-shadow: 4px 0px 0px

@@ -2,12 +2,9 @@ import styled from 'styled-components'
 import { palette } from '../../index'
 
 const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   box-sizing: border-box;
-  min-width: 20vw;
-  min-height: 30vh;
+  height: 20rem;
   width: 100%;
   background: ${({ backgroundColor }) =>
     backgroundColor ? palette[backgroundColor] : 'var(--color-black-third)'};
@@ -15,7 +12,7 @@ const Container = styled.div`
     ${({ shadowColor }) =>
       shadowColor ? palette[shadowColor] : 'var(--color-second)'};
   border-radius: 10px 10px 0px 0px;
-  padding: var(--gap-small);
+  padding: var(--gap-smallest);
 `
 
 export default Container
