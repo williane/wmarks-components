@@ -11,7 +11,7 @@ export const Wrapper = styled.section`
   height: 6rem;
   background: ${({ backgroundColor }) =>
     backgroundColor ? palette[backgroundColor] : 'var(--color-black-third)'};
-  box-shadow: 4px 0px 0px
+  box-shadow: 4px 4px 0px
     ${({ shadowColor }) =>
       shadowColor ? palette[shadowColor] : 'var(--color-second)'};
   border-radius: 0px 0px 10px 10px;
