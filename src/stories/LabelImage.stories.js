@@ -22,6 +22,12 @@ export default {
         type: 'select',
         options: Object.keys(palette)
       }
+    },
+    borderColor: {
+      control: {
+        type: 'select',
+        options: Object.keys(palette)
+      }
     }
   }
 }
@@ -33,5 +39,6 @@ Default.args = {
   children: 'Create Page Builder',
   color: 'colorBlackFirst',
   shadowColor: 'colorSecond',
-  backgroundColor: 'colorFirst'
+  backgroundColor: 'colorFirst',
+  borderColor: 'colorSecond'
 }

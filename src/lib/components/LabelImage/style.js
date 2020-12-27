@@ -14,6 +14,9 @@ export const Wrapper = styled.section`
     ${({ shadowColor }) =>
       shadowColor ? palette[shadowColor] : 'var(--color-second)'};
   border-radius: 0px 0px 10px 10px;
+  border-top: 0.3rem solid
+    ${({ borderColor }) =>
+      borderColor ? palette[borderColor] : 'var(--color-second)'};
   padding: var(--gap-small);
 `
 

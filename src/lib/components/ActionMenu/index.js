@@ -11,7 +11,8 @@ function ActionMenu({
   lBackgroundColor,
   color,
   lShadowColor,
-  children
+  children,
+  borderColor
 }) {
   return (
     <Wrapper>
@@ -22,6 +23,7 @@ function ActionMenu({
         backgroundColor={lBackgroundColor}
         color={color}
         shadowColor={lShadowColor}
+        borderColor={borderColor}
       >
         {children}
       </LabelImage>
