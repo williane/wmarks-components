@@ -1,5 +1,7 @@
 import styled from 'styled-components'
-import { palette } from '../../index'
 
-const Image = styled.img``
+const Image = styled.img`
+  width: 100%;
+  height: 100%;
+`
 export default Image
