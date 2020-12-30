@@ -25,8 +25,13 @@ function ActionMenu(_ref) {
       color = _ref.color,
       lShadowColor = _ref.lShadowColor,
       children = _ref.children,
-      borderColor = _ref.borderColor;
-  return /*#__PURE__*/_react.default.createElement(_style.Wrapper, null, /*#__PURE__*/_react.default.createElement(_Container.default, {
+      borderColor = _ref.borderColor,
+      sizeWidth = _ref.sizeWidth,
+      sizeHeight = _ref.sizeHeight;
+  return /*#__PURE__*/_react.default.createElement(_style.Wrapper, {
+    sizeHeight: sizeHeight,
+    sizeWidth: sizeWidth
+  }, /*#__PURE__*/_react.default.createElement(_Container.default, {
     backgroundColor: backgroundColor,
     shadowColor: shadowColor
   }, /*#__PURE__*/_react.default.createElement(_Image.default, {
