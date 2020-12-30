@@ -58,7 +58,9 @@ PageBuilder.args = {
   color: 'colorBlackFirst',
   lShadowColor: 'colorSecond',
   borderColor: 'colorSecond',
-  children: 'Create Page Builder'
+  children: 'Create Page Builder',
+  sizeHeight: '25',
+  sizeWidth: '28'
 }
 
 export const Api = Template.bind({})
@@ -70,7 +72,9 @@ Api.args = {
   color: 'colorBlackFirst',
   lShadowColor: 'colorSecond',
   borderColor: 'colorSecond',
-  children: 'Create Page Builder'
+  children: 'Create Page Builder',
+  sizeHeight: '25',
+  sizeWidth: '28'
 }
 
 export const Extension = Template.bind({})
@@ -82,5 +86,7 @@ Extension.args = {
   color: 'colorBlackFirst',
   lShadowColor: 'colorSecond',
   borderColor: 'colorSecond',
-  children: 'Create Page Builder'
+  children: 'Create Page Builder',
+  sizeHeight: '25',
+  sizeWidth: '28'
 }

@@ -4,7 +4,7 @@ import { palette } from '../../index'
 const Container = styled.div`
   display: inline-block;
   box-sizing: border-box;
-  height: 20rem;
+  height: 80%;
   width: 100%;
   background: ${({ backgroundColor }) =>
     backgroundColor ? palette[backgroundColor] : 'var(--color-black-third)'};

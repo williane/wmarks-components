@@ -12,10 +12,12 @@ function ActionMenu({
   color,
   lShadowColor,
   children,
-  borderColor
+  borderColor,
+  sizeWidth,
+  sizeHeight
 }) {
   return (
-    <Wrapper>
+    <Wrapper sizeHeight={sizeHeight} sizeWidth={sizeWidth}>
       <Container backgroundColor={backgroundColor} shadowColor={shadowColor}>
         <Image src={src} />
       </Container>

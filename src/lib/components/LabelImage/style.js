@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { palette } from '../../index'
 import { Subtitle as toolsHeading } from '../../Styles/Tools'
 
@@ -8,7 +8,7 @@ export const Wrapper = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 6rem;
+  height: 20%;
   background: ${({ backgroundColor }) =>
     backgroundColor ? palette[backgroundColor] : 'var(--color-black-third)'};
   box-shadow: 4px 4px 0px
