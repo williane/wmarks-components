@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, palette } from '../lib'
+import { Box, palette } from '../lib'
 
 export default {
-  title: 'Components/Container',
-  component: Container,
+  title: 'Components/Box',
+  component: Box,
   parameters: {
     layout: 'padded'
   },
@@ -23,7 +23,7 @@ export default {
   }
 }
 
-const Template = (args) => <Container {...args} />
+const Template = (args) => <Box {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
