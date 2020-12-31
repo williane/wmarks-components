@@ -2,11 +2,15 @@ import styled, { css } from 'styled-components'
 import { palette } from '../../Styles/Settings/Colors/palette'
 import { Title, Subtitle, Body2 } from '../../Styles/Tools/index'
 
-const changeColor = ({ color, backgroundColor, borderColor }) => css`
+const changeColor = ({ color, backgroundColor }) => css`
   color: ${palette[color]};
   background-color: ${palette[backgroundColor]};
-  border: 1px solid ${palette[borderColor]};
 `
+const hasBorder = ({ borderColor }) =>
+  borderColor &&
+  css`
+    border: 1px solid ${palette[borderColor]};
+  `
 
 const shadowBox = ({ shadowColor }) =>
   shadowColor &&
@@ -50,6 +54,8 @@ const Button = styled.button`
   &:hover {
     transform: translateY(calc(var(--gap-smallest) / -2)) scale(1.03);
   }
+
+  ${hasBorder};
   ${hasBorderRadius};
   ${shadowBox};
   ${hasBlur};

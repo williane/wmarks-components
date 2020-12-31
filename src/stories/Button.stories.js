@@ -4,7 +4,7 @@ import { Button, palette } from '../lib'
 const colors = {
   control: {
     type: 'select',
-    options: Object.keys(palette)
+    options: [...Object.keys(palette), false]
   }
 }
 
