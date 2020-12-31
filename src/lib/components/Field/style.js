@@ -3,7 +3,7 @@ import { Body1, Body2 } from '../../Styles/Tools'
 
 export const Content = styled.span`
   margin-bottom: var(--gap-smallest);
-  color: var(--color-third);
+  color: var(--color-black-first);
   font-weight: bold;
 `
 
@@ -11,7 +11,7 @@ export const Input = styled.input`
   ${Body2};
   background-color: var(--color-third);
   color: var(--color-black-first);
-  padding: var(--gap-small);
+  padding: var(--gap-smallest);
   border: none;
   border-radius: 5px;
 `

@@ -7,6 +7,7 @@ import LabelImage from './LabelImage'
 import ActionMenu from './ActionMenu'
 import Box from './Box'
 import Field from './Field'
+import Button from './Button'
 
 export {
   Section,
@@ -17,5 +18,6 @@ export {
   LabelImage,
   ActionMenu,
   Box,
-  Field
+  Field,
+  Button
 }
