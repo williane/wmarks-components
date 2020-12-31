@@ -6,5 +6,16 @@ import Container from './Container'
 import LabelImage from './LabelImage'
 import ActionMenu from './ActionMenu'
 import Box from './Box'
+import Field from './Field'
 
-export { Section, Title, Icons, Image, Container, LabelImage, ActionMenu, Box }
+export {
+  Section,
+  Title,
+  Icons,
+  Image,
+  Container,
+  LabelImage,
+  ActionMenu,
+  Box,
+  Field
+}
