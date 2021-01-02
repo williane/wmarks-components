@@ -27,10 +27,12 @@ function ActionMenu(_ref) {
       children = _ref.children,
       borderColor = _ref.borderColor,
       sizeWidth = _ref.sizeWidth,
-      sizeHeight = _ref.sizeHeight;
+      sizeHeight = _ref.sizeHeight,
+      onClick = _ref.onClick;
   return /*#__PURE__*/_react.default.createElement(_style.Wrapper, {
     sizeHeight: sizeHeight,
-    sizeWidth: sizeWidth
+    sizeWidth: sizeWidth,
+    onClick: onClick
   }, /*#__PURE__*/_react.default.createElement(_Container.default, {
     backgroundColor: backgroundColor,
     shadowColor: shadowColor
