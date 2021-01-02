@@ -13,10 +13,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Field(_ref) {
   var label = _ref.label,
-      placeholder = _ref.placeholder;
+      placeholder = _ref.placeholder,
+      onChange = _ref.onChange;
   return /*#__PURE__*/_react.default.createElement(_style.Label, null, /*#__PURE__*/_react.default.createElement(_style.Content, null, label), /*#__PURE__*/_react.default.createElement(_style.Input, {
     type: "text",
-    placeholder: placeholder
+    placeholder: placeholder,
+    onChange: onChange
   }));
 }
 
