@@ -14,10 +14,11 @@ function ActionMenu({
   children,
   borderColor,
   sizeWidth,
-  sizeHeight
+  sizeHeight,
+  onClick
 }) {
   return (
-    <Wrapper sizeHeight={sizeHeight} sizeWidth={sizeWidth}>
+    <Wrapper sizeHeight={sizeHeight} sizeWidth={sizeWidth} onClick={onClick}>
       <Container backgroundColor={backgroundColor} shadowColor={shadowColor}>
         <Image src={src} />
       </Container>

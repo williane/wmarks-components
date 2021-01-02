@@ -4,46 +4,24 @@ import pageBuilder from '../lib/assets/images/pageBuilder.png'
 import api from '../lib/assets/images/api.png'
 import extension from '../lib/assets/images/extension.jpg'
 
+const colors = {
+  control: {
+    type: 'select',
+    options: [...Object.keys(palette), false]
+  }
+}
+
 export default {
   title: 'Components/ActionMenu',
   component: ActionMenu,
   argTypes: {
-    backgroundColor: {
-      control: {
-        type: 'select',
-        options: Object.keys(palette)
-      }
-    },
-    color: {
-      control: {
-        type: 'select',
-        options: Object.keys(palette)
-      }
-    },
-    shadowColor: {
-      control: {
-        type: 'select',
-        options: Object.keys(palette)
-      }
-    },
-    lBackgroundColor: {
-      control: {
-        type: 'select',
-        options: Object.keys(palette)
-      }
-    },
-    lShadowColor: {
-      control: {
-        type: 'select',
-        options: Object.keys(palette)
-      }
-    },
-    borderColor: {
-      control: {
-        type: 'select',
-        options: Object.keys(palette)
-      }
-    }
+    backgroundColor: colors,
+    color: colors,
+    shadowColor: colors,
+    lBackgroundColor: colors,
+    lShadowColor: colors,
+    borderColor: colors,
+    onClick: { action: 'clicked' }
   }
 }
 
