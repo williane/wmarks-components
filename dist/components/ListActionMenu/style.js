@@ -37,11 +37,11 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var hasMoreThanFour = function hasMoreThanFour(_ref) {
+var hasMoreThanThree = function hasMoreThanThree(_ref) {
   var length = _ref.length;
-  return length > 4 && (0, _styledComponents.css)(_templateObject(), _style.Wrapper);
+  return length > 3 && (0, _styledComponents.css)(_templateObject(), _style.Wrapper);
 };
 
-var Wrapper = _styledComponents.default.div(_templateObject2(), hasMoreThanFour);
+var Wrapper = _styledComponents.default.div(_templateObject2(), hasMoreThanThree);
 
 exports.Wrapper = Wrapper;
