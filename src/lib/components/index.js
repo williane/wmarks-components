@@ -8,6 +8,7 @@ import ActionMenu from './ActionMenu'
 import Box from './Box'
 import Field from './Field'
 import Button from './Button'
+import ListActionMenu from './ListActionMenu'
 
 export {
   Section,
@@ -19,5 +20,6 @@ export {
   ActionMenu,
   Box,
   Field,
-  Button
+  Button,
+  ListActionMenu
 }
