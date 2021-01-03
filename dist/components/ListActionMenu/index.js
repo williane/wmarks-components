@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+var _react = _interopRequireDefault(require("react"));
+
 var _style = require("./style");
 
 var _ActionMenu = _interopRequireDefault(require("../ActionMenu"));
@@ -13,10 +15,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function ListActionMenu(_ref) {
   var actionMenus = _ref.actionMenus;
-  return /*#__PURE__*/React.createElement(_style.Wrapper, {
+  return /*#__PURE__*/_react.default.createElement(_style.Wrapper, {
     length: actionMenus.length
   }, actionMenus.map(function (a, index) {
-    return /*#__PURE__*/React.createElement(_ActionMenu.default, {
+    return /*#__PURE__*/_react.default.createElement(_ActionMenu.default, {
       key: index,
       backgroundColor: a.backgroundColor,
       shadowColor: a.shadowColor,
