@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components'
 import { Wrapper as WrapperStyles } from '../ActionMenu/style'
 
-const hasMoreThanFour = ({ length }) =>
-  length > 4 &&
+const hasMoreThanThree = ({ length }) =>
+  length > 3 &&
   css`
     ${WrapperStyles} {
       width: 25rem;
@@ -21,5 +21,5 @@ export const Wrapper = styled.div`
   gap: 3rem;
   height: 35%;
 
-  ${hasMoreThanFour};
+  ${hasMoreThanThree};
 `

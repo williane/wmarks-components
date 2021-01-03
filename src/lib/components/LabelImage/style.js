@@ -23,6 +23,7 @@ export const Wrapper = styled.section`
 
 export const Text = styled.h2`
   ${toolsHeading};
+  font-size: 1.5rem;
   color: ${({ color }) => (color ? palette[color] : 'var(--color-second)')};
   text-align: center;
 `
