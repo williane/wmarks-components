@@ -9,7 +9,7 @@ const hasMoreThanThree = ({ length }) =>
       height: 20rem;
 
       & h2 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       }
     }
   `
