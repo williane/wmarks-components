@@ -26,7 +26,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    ", " {\n      width: 25rem;\n      height: 20rem;\n\n      & h2 {\n        font-size: 1.5rem;\n      }\n    }\n  "]);
+  var data = _taggedTemplateLiteral(["\n    ", " {\n      width: 25rem;\n      height: 20rem;\n\n      & h2 {\n        font-size: 1.1rem;\n      }\n    }\n  "]);
 
   _templateObject = function _templateObject() {
     return data;
