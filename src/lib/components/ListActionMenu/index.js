@@ -1,3 +1,4 @@
+import React from 'react'
 import { Wrapper } from './style'
 import ActionMenu from '../ActionMenu'
 
