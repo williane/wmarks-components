@@ -69,6 +69,12 @@ Object.defineProperty(exports, "ListActionMenu", {
     return _ListActionMenu.default;
   }
 });
+Object.defineProperty(exports, "TextArea", {
+  enumerable: true,
+  get: function get() {
+    return _TextArea.default;
+  }
+});
 
 var _Section = _interopRequireDefault(require("./Section"));
 
@@ -91,5 +97,7 @@ var _Field = _interopRequireDefault(require("./Field"));
 var _Button = _interopRequireDefault(require("./Button"));
 
 var _ListActionMenu = _interopRequireDefault(require("./ListActionMenu"));
+
+var _TextArea = _interopRequireDefault(require("./TextArea"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
