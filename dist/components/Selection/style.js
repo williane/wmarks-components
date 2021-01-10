@@ -5,7 +5,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Label = exports.Input = exports.Content = void 0;
+exports.Label = exports.Options = exports.Select = exports.Content = void 0;
 
 var _styledComponents = _interopRequireWildcard(require("styled-components"));
 
@@ -15,8 +15,18 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _templateObject4() {
+function _templateObject5() {
   var data = _taggedTemplateLiteral(["\n  ", ";\n  display: flex;\n  flex-direction: column;\n  margin-bottom: var(--gap-small);\n\n  ", ";\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral([""]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -66,10 +76,14 @@ var Content = _styledComponents.default.span(_templateObject2());
 
 exports.Content = Content;
 
-var Input = _styledComponents.default.input(_templateObject3(), _Tools.Body2);
+var Select = _styledComponents.default.select(_templateObject3(), _Tools.Body2);
 
-exports.Input = Input;
+exports.Select = Select;
 
-var Label = _styledComponents.default.label(_templateObject4(), _Tools.Body1, hasVertical);
+var Options = _styledComponents.default.option(_templateObject4());
+
+exports.Options = Options;
+
+var Label = _styledComponents.default.label(_templateObject5(), _Tools.Body1, hasVertical);
 
 exports.Label = Label;

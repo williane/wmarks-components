@@ -17,8 +17,11 @@ function Field(_ref) {
       onChange = _ref.onChange,
       value = _ref.value,
       readOnly = _ref.readOnly,
-      required = _ref.required;
-  return /*#__PURE__*/_react.default.createElement(_style.Label, null, /*#__PURE__*/_react.default.createElement(_style.Content, null, label), value ? /*#__PURE__*/_react.default.createElement(_style.Input, {
+      required = _ref.required,
+      vertical = _ref.vertical;
+  return /*#__PURE__*/_react.default.createElement(_style.Label, {
+    vertical: vertical
+  }, /*#__PURE__*/_react.default.createElement(_style.Content, null, label), value ? /*#__PURE__*/_react.default.createElement(_style.Input, {
     type: "text",
     placeholder: placeholder,
     onChange: onChange,

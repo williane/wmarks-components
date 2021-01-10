@@ -75,6 +75,12 @@ Object.defineProperty(exports, "TextArea", {
     return _TextArea.default;
   }
 });
+Object.defineProperty(exports, "Selection", {
+  enumerable: true,
+  get: function get() {
+    return _Selection.default;
+  }
+});
 
 var _Section = _interopRequireDefault(require("./Section"));
 
@@ -99,5 +105,7 @@ var _Button = _interopRequireDefault(require("./Button"));
 var _ListActionMenu = _interopRequireDefault(require("./ListActionMenu"));
 
 var _TextArea = _interopRequireDefault(require("./TextArea"));
+
+var _Selection = _interopRequireDefault(require("./Selection"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
