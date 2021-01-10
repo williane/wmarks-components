@@ -10,6 +10,7 @@ import Field from './Field'
 import Button from './Button'
 import ListActionMenu from './ListActionMenu'
 import TextArea from './TextArea'
+import Selection from './Selection'
 
 export {
   Section,
@@ -23,5 +24,6 @@ export {
   Field,
   Button,
   ListActionMenu,
-  TextArea
+  TextArea,
+  Selection
 }
