@@ -24,3 +24,9 @@ Value.args = {
   readOnly: true,
   required: true
 }
+
+export const Vertical = Template.bind({})
+Vertical.args = {
+  label: 'Name:',
+  vertical: true
+}

@@ -1,9 +1,17 @@
 import React from 'react'
 import { Label, Content, Input } from './style'
 
-function Field({ label, placeholder, onChange, value, readOnly, required }) {
+function Field({
+  label,
+  placeholder,
+  onChange,
+  value,
+  readOnly,
+  required,
+  vertical
+}) {
   return (
-    <Label>
+    <Label vertical={vertical}>
       <Content>{label}</Content>
       {value ? (
         <Input

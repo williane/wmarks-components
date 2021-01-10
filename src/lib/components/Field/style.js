@@ -1,5 +1,11 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { Body1, Body2 } from '../../Styles/Tools'
+
+const hasVertical = ({ vertical }) =>
+  vertical &&
+  css`
+    flex-direction: row;
+  `
 
 export const Content = styled.span`
   margin-bottom: var(--gap-smallest);
@@ -21,4 +27,6 @@ export const Label = styled.label`
   display: flex;
   flex-direction: column;
   margin-bottom: var(--gap-small);
+
+  ${hasVertical};
 `
